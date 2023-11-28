@@ -1,1 +1,1 @@
-# P4_J1_Ramdom_Lucky
+# P4_J1_Random_Lucky
