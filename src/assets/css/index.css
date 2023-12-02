@@ -1,1 +1,33 @@
 @import url(global.css);
+
+body {
+  background-image: url("../img/backgroundHomeMovil.png");
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+  color: white;
+  font-size: 20px;
+  font-family: Inika;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.cardsHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.cardGame1 {
+  background: var(--quaternaryColor);
+  border: solid var(--quaternaryColor);
+  width: 255px;
+  height: 288px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
