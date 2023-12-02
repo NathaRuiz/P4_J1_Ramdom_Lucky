@@ -1,13 +1,14 @@
 :root{
-    --primaryColor: ;
-    --secondaryColor: ;
-    --tertiaryColor: ;
-    --quaternaryColor: ;
+    --primaryColor: #0C0B5C;
+    --secondaryColor: purple;
+    --tertiaryColor: #798FC9 ;
+    --quaternaryColor: #E1A9FF;
 }
 
 *{
 
 }
+
 
 #navLogo{
     margin-right: 15px;
