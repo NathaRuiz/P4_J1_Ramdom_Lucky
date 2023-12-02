@@ -1,0 +1,14 @@
+:root{
+    --primaryColor: ;
+    --secondaryColor: ;
+    --tertiaryColor: ;
+    --quaternaryColor: ;
+}
+
+*{
+
+}
+
+#navLogo{
+    margin-right: 15px;
+}
