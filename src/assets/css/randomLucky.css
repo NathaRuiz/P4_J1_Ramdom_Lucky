@@ -65,7 +65,7 @@
   border-radius: 50%;
   background-image: url(../img/gifHumo.gif);
   background-size: cover;
-  box-shadow: 0 0 40px #03f;;
+  box-shadow: 0 0 40px rgb(255, 255, 255); 
 }
 .ballImg {
   width: 350px;
