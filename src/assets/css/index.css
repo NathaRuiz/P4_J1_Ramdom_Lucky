@@ -33,6 +33,22 @@ body {
   align-items: center;
 }
 
+.cardImage1, .cardImage2, .cardImage3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 8px;
+  width: 230px;
+  height: 260px;
+  margin: 10px 8px 7px 9px;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+
+
+
 .cardGame {
   background: var(--quaternaryColor);
   border: solid var(--quaternaryColor);
@@ -40,7 +56,7 @@ body {
   width: 255px;
   height: 288px;
   border-radius: 8px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.25);
 }
 
 
