@@ -65,6 +65,7 @@
   border-radius: 50%;
   background-image: url(../img/gifHumo.gif);
   background-size: cover;
+  box-shadow: 0 0 40px #03f;;
 }
 .ballImg {
   width: 350px;
@@ -237,7 +238,7 @@
 @media (min-width: 1024px) and (max-height:800px){
   #gameMain {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
   .gameContent {
     width: 50%;
@@ -246,6 +247,7 @@
 
   .btnLuckyBox {
     width: 50%;
+    height: 6vh;
     font-size: 20px;
   }
 
