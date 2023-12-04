@@ -1,9 +1,8 @@
-body {
+#bgHome {
   background-image: url("../img/bgresize.svg");
   width: auto;
-  height: auto;
+  height: 800px;
 }
-
 .intro {
   display: flex;
   justify-content: center;
@@ -14,7 +13,7 @@ body {
   font-weight: 700;
   word-wrap: break-word;
 }
- .pIntro{
+.pIntro {
   display: flex;
   color: white;
   justify-content: center;
@@ -24,7 +23,7 @@ body {
   font-family: Inika;
   font-weight: 700;
   word-wrap: break-word;
-  }
+}
 
 .cardsHome {
   display: flex;
@@ -33,7 +32,9 @@ body {
   align-items: center;
 }
 
-.cardImage1, .cardImage2, .cardImage3{
+.cardImage1,
+.cardImage2,
+.cardImage3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +47,6 @@ body {
   cursor: pointer;
 }
 
-
 .cardGame {
   background: var(--quaternaryColor);
   border: solid var(--quaternaryColor);
@@ -57,44 +57,46 @@ body {
   box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.25);
 }
 
-
 @media (min-width: 744px) and (max-width: 1199px) {
- 
-.cardsHome{
-  height: auto;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-}
+  .cardsHome {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
 
+  .cardImage1,
+  .cardImage2,
+  .cardImage3 {
+    width: 230px;
+    height: 260px;
+  }
 
-.cardSecond{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100vw;
-}
-
+  .cardSecond {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+  }
 }
 
 @media (min-width: 1200px) {
-  .intro{
+  .intro {
     margin-top: 150px;
   }
 
   .cardsHome {
-   flex-direction: row;
-   justify-content: center;
-   margin-top: 110px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 110px;
   }
 
-.cardGame{
-  margin: 55px;
-}
+  .cardGame {
+    margin: 55px;
+  }
 
-  .cardSecond{
+  .cardSecond {
     display: flex;
     flex-direction: row;
   }
 }
-
