@@ -3,9 +3,9 @@
     --secondaryColor: purple;
     --tertiaryColor: #798FC9 ;
     --quaternaryColor: #E1A9FF;
-    --quinaryColor:#0D0637;
-    --primaryColorBase:white;
-    --secondaryColorBase:black;
+    --quinaryColor: #0D0637;
+    --primaryColorBase: white;
+    --secondaryColorBase: black;
 }
 
 *{
