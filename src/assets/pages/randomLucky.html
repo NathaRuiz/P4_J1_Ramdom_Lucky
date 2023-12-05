@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="htmlBackground">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,7 +49,7 @@
         </nav>
 
         <div id="titleGame">
-            <h1>Lorem ipsum dolor sit</h1>
+            <h2>Lorem ipsum dolor sit</h2>
         </div>
 
     </header>
@@ -59,7 +59,7 @@
         <section id="ballContainer" class="gameContent">
 
             <div class="btnLucky">
-                <button id="lucky" class="btnLuckyBox">
+                <button id="lucky" class="btnMagic">
                     <img src="../img/brilloBtn.png" alt="Brillo">
                     Suerte
                     <img src="../img/brilloBtn.png" alt="Brillo">
@@ -83,15 +83,8 @@
         </section>
 
         <section id="nameListContainer" class="gameContent">
-
-            <h2 class="pageTitle">Agregar Participantes</h2>
-
-            <div id="addName">
-                <input type="text" placeholder="Nombre del participante">
-                <i id="addPlus" class="fas fa-plus-circle"></i>
-            </div>
-
-            <div id="nameList">
+            <div id="namesList">
+                <h3>Participantes</h3>
                 <ul id="list">
                     <li>
                         <span class="competitor">Nathalia Ruiz Meneses</span>
@@ -113,13 +106,36 @@
                         <span class="competitor">Nathalia Ruiz Meneses</span>
                         <i id="0" data="deleteName" class="fas fa-trash-alt"></i>
                     </li>
+                    <li>
+                        <span class="competitor">Nathalia Ruiz Meneses</span>
+                        <i id="0" data="deleteName" class="fas fa-trash-alt"></i>
+                    </li>
+                    <li>
+                        <span class="competitor">Nathalia Ruiz Meneses</span>
+                        <i id="0" data="deleteName" class="fas fa-trash-alt"></i>
+                    </li>
+                    <li>
+                        <span class="competitor">Nathalia Ruiz Meneses</span>
+                        <i id="0" data="deleteName" class="fas fa-trash-alt"></i>
+                    </li>
+                    <li>
+                        <span class="competitor">Nathalia Ruiz Meneses</span>
+                        <i id="0" data="deleteName" class="fas fa-trash-alt"></i>
+                    </li>
+                    <li>
+                        <span class="competitor">Nathalia Ruiz Meneses</span>
+                        <i id="0" data="deleteName" class="fas fa-trash-alt"></i>
+                    </li>
+                   
                 </ul>
-            </div>
-
-            <div class="btnGame">
-                <button id="reset" class="btnGameBox">
-                    Nueva Partida
-                </button>
+            
+                <a href="../pages/addNameList.html">
+                    <button id="btnreset" class="btnMagic">
+                        <img src="../img/brilloBtn.png" alt="Brillo">
+                        Reiniciar
+                        <img src="../img/brilloBtn.png" alt="Brillo">
+                    </button>
+                </a>
             </div>
 
         </section>
