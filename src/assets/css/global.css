@@ -17,3 +17,28 @@
 #navLogo{
     margin-right: 15px;
 }
+
+.btnMagic {
+    width: 50%;
+    height: 5vh;
+    background: linear-gradient(var(--primaryColor), var(--quinaryColor));
+    text-transform: uppercase;
+    color: var(--primaryColorBase);
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+  }
+  .btnMagic:hover {
+    scale: 1.1;
+    background: var(--secondaryColor);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 2px 0 var(--primaryColorBase),
+      2px 4px 6px var(--primaryColorBase);
+    -webkit-transition: all 150ms linear;
+    transition: all 150ms linear;
+    cursor: url(../img/varita-magica5.png), auto;
+  }
