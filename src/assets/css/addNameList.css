@@ -105,6 +105,43 @@
     justify-content: center;
 }
 
+@media (min-width: 375px) and (max-width:380px) {
+    #namesList{
+        width: 90%;
+        height: 55vh;
+    }
+    
+    #namesList h3{
+        padding: 5px;
+    }
+    #list{
+        width: 50%;
+        height: 12vh;        
+    }
+    #list li{
+        width: 100%;
+        padding: 5px;
+        padding-left:0px ;
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #namesList i {
+        font-size: 15px;
+    }
+    #namesList i:hover {
+        scale: 1.1;
+        color: var(--secondaryColor);
+    }
+    
+    #namesList a {
+        text-decoration: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
 @media (min-width: 540px) {
     #namesList{
         width: 80%;
