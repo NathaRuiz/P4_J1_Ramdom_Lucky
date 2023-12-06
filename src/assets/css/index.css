@@ -1,7 +1,8 @@
 #bgHome {
   background-image: url("../img/bgresize.svg");
   width: auto;
-  height: 800px;
+  height: auto;
+  background-repeat: no-repeat;
 }
 .intro {
   display: flex;
