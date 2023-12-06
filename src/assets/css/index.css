@@ -1,3 +1,5 @@
+@import url(global.css);
+
 #bgHome {
   background-image: url("../img/bgresize.svg");
   width: auto;
@@ -18,8 +20,8 @@
   color: white;
   justify-content: center;
   text-align: justify;
-  margin: 35px;
-  font-size: medium;
+  margin: 20px 15px;
+  font-size: 16px;
   font-family: Inika;
   font-weight: 700;
   word-wrap: break-word;
@@ -40,23 +42,46 @@
   align-items: center;
   align-content: center;
   border-radius: 8px;
-  width: 230px;
-  height: 260px;
-  margin: 10px 8px 7px 9px;
-  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 106px;
+  height: 122px;
+  margin: 8px;
   cursor: pointer;
 }
 
 .cardGame {
   background: var(--quaternaryColor);
   border: solid var(--quaternaryColor);
-  margin-bottom: 38px;
-  width: 255px;
-  height: 288px;
+  margin-bottom: 12px;
+  width: 128px;
+  height: 144px;
   border-radius: 8px;
   box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.25);
 }
 
+footer{
+    background-color: var(--primaryColor);
+    height: 12vh;
+}
+
+.footerHome{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+
+.footerh2{
+    font-size: 12px;
+    color: white;
+}
+
+.paysHome{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 @media (min-width: 744px) and (max-width: 1199px) {
   .cardsHome {
     height: auto;
@@ -65,11 +90,19 @@
     flex-direction: column;
   }
 
+  .pIntro{
+    margin-bottom: 40px;
+  }
   .cardImage1,
   .cardImage2,
   .cardImage3 {
-    width: 230px;
-    height: 260px;
+    width: 156px;
+    height: 172px;
+  }
+
+  .cardGame{
+    width: 176px;
+    height: 192px;
   }
 
   .cardSecond {
@@ -78,6 +111,7 @@
     justify-content: space-around;
     width: 100vw;
   }
+
 }
 
 @media (min-width: 1200px) {
@@ -90,9 +124,17 @@
     justify-content: center;
     margin-top: 110px;
   }
+  .cardImage1,
+  .cardImage2,
+  .cardImage3 {
+    width: 223px;
+    height: 255px;
+  }
 
   .cardGame {
-    margin: 55px;
+    width: 248px;
+    height: 276px;
+    margin: -50px 25px;
   }
 
   .cardSecond {
