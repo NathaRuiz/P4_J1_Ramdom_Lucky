@@ -2,42 +2,69 @@
 
 #bgAboutUs {
   background-image: url("../img/bgresize.svg");
-  width: 100%;
   margin: auto;
+  /* width: 100%; */
+  
 }
 
-header {
-  height: 10vh;
-}
-
-main {
+/* main {
+  margin: 15vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .infoAboutUs {
-  margin: 5vh;
+  margin-top: 10vh;
+  text-align: center;
   color: white;
 }
 
 .containerCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: solid 2px rgb(194, 35, 35);
-  height: auto;
 }
 
-.card {
-  /* background-color: none; */
+.backgroundCard {
   margin-bottom: 2vh;
-  border: solid 2px var(--primaryColor);
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   border-radius: 20px;
-  /* background-color: rgb(245, 245, 245); */
   text-align: center;
+  background-color: rgba(227, 183, 218, 0.329);
+}
+
+.containerCards .backgroundCard img {
+  max-width: 85%;
 }
 
 .card_title {
   font-size: 1rem;
 }
+
+/* @media (min-width :768px) and (max-width :820px) {
+  .containerCards {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+}
+
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+} */
+
+/* @media (min-width :1024px) {
+
+} */
