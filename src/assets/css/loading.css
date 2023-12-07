@@ -20,7 +20,7 @@ body {
 } 
 
 .percent {
-    color: #999;
+    color: #F5F5F5;
     font-size: 100px;
     font-weight: 400;
     text-align: center;
@@ -30,7 +30,7 @@ body {
 .text{
     position: absolute;
     left: 160px;
-    color: #fdb5ca;
+  
     font-size: 15px;
     letter-spacing: 1px;
     line-height: 21px;
