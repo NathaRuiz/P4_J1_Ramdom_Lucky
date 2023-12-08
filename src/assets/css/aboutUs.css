@@ -55,13 +55,39 @@
 .card3 { grid-area: 2 / 3 / 3 / 4; }
 .card4 { grid-area: 3 / 2 / 4 / 3; }
 .card5 { grid-area: 3 / 4 / 4 / 5; }
-
-/* .cardsRow1 { grid-area: 1 / 2 / 2 / 3; }
-.cardsRow2 { grid-area: 1 / 4 / 2 / 5; }
-.cardsRow3 { grid-area: 2 / 2 / 3 / 3; }
-.cardsRow4 { grid-area: 2 / 4 / 3 / 5; }
-.cardsRow5 { grid-area: 3 / 3 / 4 / 4; } */
 }
+
+
+#footerAboutUs {
+    background-color: #212529;
+    height: 10vh;
+    top: 90vh;
+    width: 100vw;
+    position: fixed;
+}
+
+.textFooter {
+  text-align: center;  
+  font-size: 12px;
+  margin-top: 2%;
+  color: var( --primaryColorBase);
+  /* margin-left: 24px; */
+}
+
+.paymentFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between;
+  width: 24%;
+  margin-right: 20%;  */
+}
+
+.paymentFooter, .paymentIcons {
+  align-items: center;
+  justify-content: center;
+} 
+
 
 
 @media (min-width :1024px) {
@@ -89,6 +115,14 @@
   width: 180px;
   height: 180px;
 }
+
+/* #footerAboutUs {
+  height: 2vh;
+}
+
+.textFooter {
+  text-align: right;
+} */
 }
 
 @media (min-width :1440px) {
