@@ -44,6 +44,8 @@ function main() {
       element.attributes.data && element.attributes.data.value;
     if (elementData === "delete") {
       deleteName(element);
+      const updateLocalStorageData = localStorage.getItem("NAMESLIST")
+      namesList = JSON.parse(updateLocalStorageData);
       namesList = namesList.filter(
         (player) => player.id !== parseInt(element.attributes.id.value)
       );
@@ -58,7 +60,7 @@ function main() {
   btnlucky.addEventListener("click", ()=>{
     const updateLocalStorageData = localStorage.getItem("NAMESLIST")
     const parseLocalStoraData = JSON.parse(updateLocalStorageData);
-    if(parseLocalStoraData.length === 0){
+    if( !updateLocalStorageData || parseLocalStoraData.length === 0){
       alert("No hay más participantes, vuelve a empezar una nueva partida.")
     }
     else{
