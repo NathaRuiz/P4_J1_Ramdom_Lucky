@@ -3,7 +3,7 @@
 #bgHome {
   background: url("../img/bgshine.gif"); 
   background-repeat: no-repeat;
-  position: absolute;
+  position: fixed;
   background-size: auto;
   cursor: none;
 }
