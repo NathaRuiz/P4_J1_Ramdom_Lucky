@@ -1,8 +1,11 @@
 @import url(global.css);
 
 #bgAboutUs {
-  background-image: url("../img/bgresize.svg");
-  margin: auto; 
+  cursor: url(../img/varita-magica7.png), auto;
+  background-image: url("../img/pruebafondogif.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 160vh;
 }
 
 .infoAboutUs {
