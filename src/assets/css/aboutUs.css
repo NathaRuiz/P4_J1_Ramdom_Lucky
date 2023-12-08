@@ -14,7 +14,7 @@
   color: white;
 }
 
-.containerCards {
+.cardsAboutUs {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,7 +22,7 @@
   margin-top: 10%;
 }
 
-.backgroundCard {
+.frontCard {
   margin-bottom: 10%;
   width: 160px;
   height: 160px;
@@ -31,7 +31,7 @@
   background-color: rgba(227, 183, 218, 0.329);
 }
 
-.containerCards .backgroundCard img {
+.cardsAboutUs .frontCard img {
   max-width: 85%;
 }
 
@@ -45,7 +45,7 @@
     margin-top: 15%;
   }
 
-  .containerCards {
+  .cardsAboutUs {
   display: grid;
   grid-template-columns: repeat(5, 1fr);;
   grid-template-rows: repeat(3, 1fr);
@@ -98,7 +98,7 @@
     margin-top: 10%;
   }
 
-  .containerCards {
+  .cardsAboutUs {
   display: grid;
   grid-template-columns: repeat(7, 1fr);;
   grid-template-rows: repeat(2, 1fr);
@@ -113,7 +113,7 @@
 .card4 { grid-area: 2 / 3 / 3 / 4; }
 .card5 { grid-area: 2 / 5 / 3 / 6; }
 
-.backgroundCard {
+.frontCard {
   margin-bottom: 10%;
   width: 180px;
   height: 180px;
