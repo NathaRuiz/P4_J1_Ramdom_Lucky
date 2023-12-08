@@ -5,10 +5,7 @@ function main() {
   let data = localStorage.getItem("NAMESLIST");
 
   const btnlucky = document.getElementById("lucky");
-  const playerName = document.getElementById("nameCompetitor");
-  const fortuneteller = document.getElementById("pitonisaName");
-  const luckyMessage = document.getElementById("luckyMessage");
-
+  
   const fortunetellerList = [
     "Sharon",
     "Alejandra",
@@ -59,7 +56,15 @@ function main() {
   });
 
   btnlucky.addEventListener("click", ()=>{
-    randomGenerator(namesList, fortunetellerList, messagesList);
+    const updateLocalStorageData = localStorage.getItem("NAMESLIST")
+    const parseLocalStoraData = JSON.parse(updateLocalStorageData);
+    if(parseLocalStoraData.length === 0){
+      alert("No hay más participantes, vuelve a empezar una nueva partida.")
+    }
+    else{
+      randomGenerator(parseLocalStoraData, fortunetellerList, messagesList);
+    }
+
   });
 
   printLocalStorageData(myList, data);
@@ -95,12 +100,38 @@ function appendName(selectHtmlElementList, name, id) {
 }
 
 function randomGenerator (list1, list2, list3){
-  const selected1 = list1[Math.floor(Math.random() * list1.length)];
-  const selectedName1 = selected1.id;
-   console.log(selected1);
-   console.log(selectedName1);
+ 
+  const playerName = document.getElementById("nameCompetitor");
+  const fortuneteller = document.getElementById("pitonisaName");
+  const luckyMessage = document.getElementById("luckyMessage");
+
+  const selected1 = list1[Math.floor(Math.random() * list1.length)]; // Nos da un jugador al azar con un nombre y un id
+  const selectedName1 = selected1.name; // nos dice el nombre del jugador
+  console.log(selectedName1);
+
+  playerName.innerHTML = `${selectedName1}`;
+
+  const selectedId =  (selected1.id).toString();
+  console.log(selectedId); // nos dice el id del jugador
+  const elementId = document.getElementById(selectedId); //creamos una variable que va a buscar del documento html al que tenga ese id 
+  deleteName(elementId); // llamamos a borrar nombre que borra unicamente la etiqueta del html
+  console.log(list1);
+  list1 = list1.filter(
+    (player) => player.id !== parseInt(elementId.attributes.id.value)
+  );
+  console.log(list1);
+  localStorage.setItem("NAMESLIST", JSON.stringify(list1));
+ 
+
+
   const selected2 = list2[Math.floor(Math.random() * list2.length)];
-  console.log(selected2);
+  fortuneteller.innerHTML = ` La pitonisa ${selected2} te dice hoy:`;
+  
   const selected3 = list3[Math.floor(Math.random() * list3.length)];
-  console.log(selected3);
+  luckyMessage.innerHTML = `${selected3}`;
+  
 }
+
+// function deleteLocalStorage(param1, ){
+
+// }
