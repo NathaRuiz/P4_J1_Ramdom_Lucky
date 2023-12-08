@@ -30,7 +30,7 @@ body {
 .text{
     position: absolute;
     left: 160px;
-  
+  color:#3C0645;
     font-size: 15px;
     letter-spacing: 1px;
     line-height: 21px;
@@ -63,6 +63,6 @@ body {
 .progress {
     width: 200px;
     height: 15px;
-    background: #f60d54;
+    background: #B47DBC;
     border-radius: 13px;
 }
