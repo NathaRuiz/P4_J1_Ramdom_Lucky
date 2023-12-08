@@ -1,8 +1,12 @@
 :root{
     --primaryColor: #0C0B5C;
-    --secondaryColor: purple;
+    --secondaryColor: #3C0645;
     --tertiaryColor: #798FC9 ;
     --quaternaryColor: #E1A9FF;
+    --quinaryColor: #0D0637;
+    --sextenaryColor: #333A5F;
+    --primaryColorBase: white;
+    --secondaryColorBase: black;
 }
 
 *{

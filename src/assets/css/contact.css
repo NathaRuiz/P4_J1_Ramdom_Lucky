@@ -1,38 +1,26 @@
 @import url(global.css);
+
 #contactBody {
-    padding-top: 60px;
+    padding-top: 120px;
+    background: linear-gradient(var(--secondaryColor), var(--sextenaryColor)); 
 }
 
-body{
-    background-color: #333A5F; 
-}
-
-.horizontal-gradient {
-    background: linear-gradient(to right,#0B2B7C, rgb(176, 209, 246));
-  }
-
-h1{
-    color:#ccc;
-    font-size: 100px;
+ .titleContact {
+    color: white;
+    font-size: 30px;
     text-align: center;
 }
 
-p{
-  color: #ccc;
+p {
+  color: white;
   text-align: center;
-  font-size: 80px;
-}
-
-img{
-    background-image: url(/img/luna.png);
-	background-size: 1200px;
-	background-repeat: no-repeat;
+  font-size: 15px;
 }
 
 form {
-    width: 500px;
+    width: 90%%;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 45px;
     text-align: left;
     padding: 20px;
     border: 1px solid #ccc;
