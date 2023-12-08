@@ -11,3 +11,5 @@ document.addEventListener('DOMContentLoaded', function () {
     customCursor.style.top = y + 'px';
   });
 });
+
+
