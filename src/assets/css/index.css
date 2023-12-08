@@ -133,9 +133,10 @@
 }
 
 .footerh2 {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--primaryColorBase);
   margin-left: 24px;
+  font-family: "Fondamento", cursive;
 }
 
 .paysHome {
@@ -201,13 +202,7 @@
 }
 
 @media (min-width: 744px) and (max-width: 1199px) {
-  #bgHome {
-    background: url("../img/bgshine.gif");
-    background-repeat: no-repeat;
-    position: absolute;
-    background-size: auto;
-    cursor: none;
-  }
+  
 
   .cardsHome {
     height: auto;
@@ -246,14 +241,7 @@
 }
 
 @media (min-width: 1200px) {
-  #bgHome {
-    background: url("../img/bgshine.gif");
-    background-repeat: no-repeat;
-    position: absolute;
-    background-size: auto;
-    cursor: none;
-  }
-
+  
   .intro {
     margin-top: 150px;
   }
