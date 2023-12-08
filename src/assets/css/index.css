@@ -5,8 +5,30 @@
   background-repeat: no-repeat;
   position: absolute;
   background-size: auto;
-  cursor: none;
+  cursor: pointer;
 }
+.sounds{
+  margin-top: 8vh;
+}
+
+.icon {
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+#toggleAudio{
+  background-color: #011c2e37; 
+  margin-left: 15px;
+  color: #ffffff;
+  border: none; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  font-size: 12px; 
+   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 
 .textHome {
   display: flex;
@@ -17,7 +39,7 @@
 .intro {
   display: flex;
   justify-content: center;
-  margin-top: 12vh;
+  margin-top: 4vh;
   color: var(--primaryColorBase);
   font-size: 40px;
   font-family: Inika;
@@ -302,4 +324,4 @@
   background-size: cover;
   pointer-events: none;
   z-index: 2000;
-}
+} 
