@@ -5,8 +5,18 @@
   background-repeat: no-repeat;
   position: absolute;
   background-size: auto;
-  cursor: pointer;
+  cursor: none;
 }
+.custom-cursor {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background: url(../img/varita-magica7.png) no-repeat;
+  background-size: cover;
+  pointer-events: none;
+  z-index: 2000;
+} 
+
 .sounds{
   margin-top: 8vh;
 }
@@ -316,12 +326,4 @@
   }
 }
 
-.custom-cursor {
-  position: fixed;
-  width: 100px;
-  height: 100px;
-  background: url(../img/varita-magica7.png) no-repeat;
-  background-size: cover;
-  pointer-events: none;
-  z-index: 2000;
-} 
+
