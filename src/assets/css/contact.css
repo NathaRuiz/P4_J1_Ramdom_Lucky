@@ -27,24 +27,29 @@
 }
 
 
-p {
+.textContact p {
  color: white;
  text-align: center;
  font-size: 15px;
 }
 
-
-.form {
- width: 90%;
- margin: auto;
- margin-top: 45px;
- padding: 20px;
- border: 1px solid white;
- border-radius: 5px;
- display: flex;
- flex-direction: column;
+.boxFormImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
 }
 
+
+.form {
+background-color: aqua;
+width: 80%;
+display: flex;
+flex-direction: column;
+
+}
+
+/*
 .inputForm,
 .textareaForm {
  width: 100%;
@@ -56,3 +61,4 @@ p {
  font-size: 16px;
  row-gap: 5px;
 }
+*/
