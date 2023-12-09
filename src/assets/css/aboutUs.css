@@ -35,6 +35,32 @@
   max-width: 85%;
 }
 
+#footerAboutUs {
+  background-color: #212529;
+  height: 10vh;
+  top: 90vh;
+  width: 100vw;
+  position: fixed;
+}
+
+.textFooter {
+text-align: center;  
+font-size: 12px;
+margin-top: 2%;
+color: var( --primaryColorBase);
+}
+
+.paymentFooter {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.paymentFooter, .paymentIcons {
+align-items: center;
+justify-content: center;
+} 
+
 
 @media (min-width :768px) and (max-width :820px) {
   .infoAboutUs {
@@ -55,34 +81,6 @@
 .card4 { grid-area: 3 / 2 / 4 / 3; }
 .card5 { grid-area: 3 / 4 / 4 / 5; }
 }
-
-
-#footerAboutUs {
-    background-color: #212529;
-    height: 10vh;
-    top: 90vh;
-    width: 100vw;
-    position: fixed;
-}
-
-.textFooter {
-  text-align: center;  
-  font-size: 12px;
-  margin-top: 2%;
-  color: var( --primaryColorBase);
-}
-
-.paymentFooter {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.paymentFooter, .paymentIcons {
-  align-items: center;
-  justify-content: center;
-} 
-
 
 
 @media (min-width :1024px) {
