@@ -49,6 +49,44 @@ flex-direction: column;
 
 }
 
+#footerHome {
+    background-color: #212529;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 90vh;
+  }
+  
+  .footerh2 {
+    font-size: 14px;
+    color: var(--primaryColorBase);
+    margin-left: 24px;
+    font-family: "Fondamento", cursive;
+  }
+  
+  .paysHome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 24%;
+    margin-right: 30px;
+  }
+  
+  .fa-brands {
+    margin: 5px;
+    align-items: flex-end;
+  }
+  
+  .backcolor {
+    color: var(--primaryColorBase);
+  }
+  
+
 /*
 .inputForm,
 .textareaForm {
