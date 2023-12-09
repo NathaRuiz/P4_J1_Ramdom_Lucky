@@ -3,10 +3,12 @@
 #bgAboutUs {
   display: flex;
   align-items: center;
-  justify-content: center;  
-  background-image: url(../img/bgresize.svg);
+  justify-content: center;
+  background-color: purple; 
+  /* background-image: url(../img/bgresize.svg); */
   background-size: cover;
   min-height : 800px;
+  cursor: url(../img/varita-magica5.png);
 }
 
 .infoAboutUs {
