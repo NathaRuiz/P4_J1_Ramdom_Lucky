@@ -82,6 +82,36 @@
    transition-delay: 0.2s;
 }
 
+#footerAboutUs {
+  background-color: #212529;
+  height: 10vh;
+  top: 90vh;
+  width: 100vw;
+  position: fixed;
+}
+
+
+.textFooter {
+text-align: center;  
+font-size: 12px;
+margin-top: 2%;
+color: var( --primaryColorBase);
+}
+
+
+.paymentFooter {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+
+.paymentFooter, .paymentIcons {
+align-items: center;
+justify-content: center;
+}
+
+
 @media (min-width :768px) and (max-width :912px) {
 .infoAboutUs {
   margin-top: 15%;
@@ -92,7 +122,7 @@
 .container {
   margin-top: 20%;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);;
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -119,7 +149,7 @@
 
 .container {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);;
+  grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -142,11 +172,11 @@
   border-radius: 15px;
 }
 
-#card1 { grid-area: 1 / 2 / 2 / 3; }
-#card2 { grid-area: 1 / 4 / 2 / 5; }
-#card3 { grid-area: 1 / 6 / 2 / 7; }
-#card4 { grid-area: 2 / 3 / 3 / 4; }
-#card5 { grid-area: 2 / 5 / 3 / 6; }
+#card1 { grid-area: 1 / 2 / 2 / 3; };
+#card2 { grid-area: 1 / 4 / 2 / 5; };
+#card3 { grid-area: 1 / 6 / 2 / 7; };
+#card4 { grid-area: 2 / 3 / 3 / 4; };
+#card5 { grid-area: 2 / 5 / 3 / 6; };
 
 .frontCard {
   margin-bottom: 10%;
