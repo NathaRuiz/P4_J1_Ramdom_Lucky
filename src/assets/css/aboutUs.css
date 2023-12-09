@@ -11,7 +11,7 @@
 .infoAboutUs {
   margin-top: 30%;
   text-align: center;
-  color: white;
+  color: var(--primaryColorBase);
 }
 
 .cardsAboutUs {
@@ -33,10 +33,6 @@
 
 .cardsAboutUs .frontCard img {
   max-width: 85%;
-}
-
-.card_title {
-  font-size: 1rem;
 }
 
 
@@ -74,16 +70,12 @@
   font-size: 12px;
   margin-top: 2%;
   color: var( --primaryColorBase);
-  /* margin-left: 24px; */
 }
 
 .paymentFooter {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* justify-content: space-between;
-  width: 24%;
-  margin-right: 20%;  */
 }
 
 .paymentFooter, .paymentIcons {
@@ -118,15 +110,8 @@
   width: 180px;
   height: 180px;
 }
-
-/* #footerAboutUs {
-  height: 2vh;
 }
 
-.textFooter {
-  text-align: right;
-} */
-}
 
 @media (min-width :1440px) {
   .infoAboutUs {
