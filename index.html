@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./src/assets/img/bola1.png" type="image/png">
+    <link rel="icon" href="./src/assets/img/bola1.png" type="image/png" />
     <title>Secretos Astrales</title>
     <link rel="stylesheet" href="config/styles/styles.css" />
     <link
@@ -17,15 +16,23 @@
       src="https://kit.fontawesome.com/83c6a3b014.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Englebert&family=Fondamento&family=Lovers+Quarrel&family=Macondo+Swash+Caps&family=Redressed&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Englebert&family=Fondamento&family=Lovers+Quarrel&family=Macondo+Swash+Caps&family=Redressed&display=swap"
+      rel="stylesheet"
+    />
+     <audio
+      id="backgroundAudio"
+      src="./src/assets/media/audio/mystery.mp3"
+      loop="loop"
+      preload="auto"
+    ></audio>
   </head>
 
   <body id="bgHome">
     <div class="trail"></div>
-
+   
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
@@ -55,7 +62,10 @@
             aria-labelledby="offcanvasDarkNavbarLabel"
           >
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              <h5
+                class="offcanvas-title font-family"
+                id="offcanvasDarkNavbarLabel"
+              >
                 Secretos Astrales
               </h5>
               <button
@@ -93,6 +103,7 @@
                         >Fortuna Asíncrona</a
                       >
                     </li>
+                    <li><hr class="dropdown-divider"/></li>
                     <li>
                       <a class="dropdown-item" href="#"
                         >Mathrandom de la suerte
@@ -120,6 +131,14 @@
           </div>
         </div>
       </nav>
+
+      <div class="sounds">
+        <button id="toggleAudio">
+          🔉
+          <i id="volumeIcon" class="fas"></i>
+          <i id="playPauseIcon" class="fas"></i>
+        </button>
+      </div>
     </header>
 
     <main>
@@ -133,7 +152,7 @@
 
       <div class="cardsHome">
         <div class="cardFirst">
-          <div class="cardGame magic" onclick="flipCard(this)">
+          <div class="cardGame" onclick="flipCard(this)">
             <div class="cardInner">
               <div class="cardFront">
                 <a href="./src/assets/pages/randomLucky.html">
@@ -146,7 +165,8 @@
               </div>
               <div class="cardBack">
                 <p class="cardGameContent">
-                  Fortuna Asíncrona <br>¡Una bola maravillosa, de manera habilidosa!
+                  Fortuna Asíncrona <br />¡Una bola maravillosa, de manera
+                  habilidosa!
                 </p>
               </div>
             </div>
@@ -154,7 +174,7 @@
         </div>
 
         <div class="cardSecond">
-          <div class="cardGame magic" onclick="flipCard(this)">
+          <div class="cardGame" onclick="flipCard(this)">
             <div class="cardInner">
               <div class="cardFront">
                 <a href="./src/assets/pages/randomLucky.html">
@@ -167,13 +187,13 @@
               </div>
               <div class="cardBack">
                 <p class="cardGameContent">
-                  Mathrandom<br>¡Donde la suerte se multiplica!
+                  Mathrandom<br />¡Donde la suerte se multiplica!
                 </p>
               </div>
             </div>
           </div>
 
-          <div class="cardGame magic" onclick="flipCard(this)">
+          <div class="cardGame" onclick="flipCard(this)">
             <div class="cardInner">
               <div class="cardFront">
                 <a href="./src/assets/pages/randomLucky.html">
@@ -186,7 +206,8 @@
               </div>
               <div class="cardBack">
                 <p class="cardGameContent">
-                  Destino True o False<br> ¡La magia en actitud!
+                  Destino True o False<br />
+                  ¡La magia en actitud!
                 </p>
               </div>
             </div>
@@ -222,6 +243,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script src="./src/assets/js/pruebamouse.js" type="module"></script>
+    <script src="./src/assets/js/functionsHome.js" type="module"></script>
   </body>
 </html>
