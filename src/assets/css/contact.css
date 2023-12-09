@@ -1,26 +1,14 @@
 @import url(global.css);
 
 #contactBody {
-  background: linear-gradient(var(--secondaryColor), var(--sextenaryColor));
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    padding-top: 120px;
+    background: linear-gradient(var(--secondaryColor), var(--sextenaryColor)); 
 }
 
-.mainContact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.textContact {
-  margin-top: 10vh;
-}
-
-.titleContact {
-  color: white;
-  font-size: 30px;
-  text-align: center;
+ .titleContact {
+    color: white;
+    font-size: 30px;
+    text-align: center;
 }
 
 p {
@@ -30,25 +18,69 @@ p {
 }
 
 form {
-  width: 90%;
-  margin: auto;
-  margin-top: 45px;
-  padding: 20px;
-  border: 1px solid white;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-}
+    width: 90%%;
+    margin: 0 auto;
+    margin-top: 45px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #B47DBC;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #B47DBC;
+  }
 
-input,
-textarea {
-  width: 100%;
-  padding: 12px 20px;
-  margin-bottom: 20px;
-  border: 1px solid white;
-  border-radius: 4px;
-  box-sizing: border-box;
-  font-size: 16px;
-  row-gap: 5px;
-}
+  .form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+  
+  .form button {
+    padding: 0.5em 1em;
+    border: none;
+    background: #B47DBC;
+    cursor: pointer;
+  }
 
+  #button:hover {
+    cursor: pointer;
+  }
