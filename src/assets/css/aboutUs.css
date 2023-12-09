@@ -8,7 +8,7 @@
   /* background-image: url(../img/bgresize.svg); */
   background-size: cover;
   min-height : 800px;
-  cursor: url(../img/varita-magica5.png);
+  cursor: url(../img/varita-magica5.png), auto;
 }
 
 .infoAboutUs {
