@@ -1,30 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/cristalBallFavicon.png" type="image/png"/>
     <title>Loading</title>
     <link rel="stylesheet" href="../../../config/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Englebert&family=Fondamento&display=swap" rel="stylesheet">
 </head>
 <body >
   
-    <div class="conteiner">
+    <div class="containerLoading">
       <audio 
-      src="../media/audio/magic.mp3" autoplay="autoplay " preload="auto" controls></audio>
+      src="../media/audio/mysteriousCeleste.mp3" autoplay="autoplay " preload="auto" controls></audio>
       <div class="video-loading">
-        <video playsinline autoplay muted loop poster="cake.jpg">
+        <video id="videoLoading" playsinline autoplay muted loop>
           <source src="../media/video/videoLoading.mp4" type="video/webm">
         </video>
           <div class="loading">
             <div class="percent">100%</div>
-            <div class="progress-bar">
+            <div class="progresBar">
                 <div class="progress"></div>
             </div>
           </div>
       </div>
     </div>
-
-        <script src="../js/loading.js" type="module"></script>
+    
+    <script src="../js/loading.js" type="module"></script>
 
 
 

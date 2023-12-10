@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/cristalBallFavicon.png" type="image/png"/>
     <title>About Us</title>
     <link rel="stylesheet" href="../../../config/styles/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -11,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Englebert&family=Fondamento&display=swap" rel="stylesheet">
-    <audio id="backgroundAudio" src="./src/assets/media/audio/mystery.mp3" loop="loop" preload="auto"></audio>
+    <audio id="backgroundAudio" src="../media/audio/mystery.mp3" autoplay="autoplay" loop="loop" preload="auto"></audio>
 </head>
 <body id="bgAboutUs">
     <header>
@@ -20,7 +21,7 @@
           <a href="../../../index.html">
             <img id="navLogo" src="../img/logo.svg" width="50px" alt="logo">
           </a>
-          <a class="navbar-brand fs-3" href="#">Secretos Astrales</a>
+          <a class="navbar-brand fs-3" href="../../../index.html">Secretos Astrales</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
             aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,7 +42,7 @@
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Juegos</a>
                   <ul class="dropdown-menu" data-bs-theme="dark">
                     <li>
-                      <a class="dropdown-item" href="../pages/randomLucky.html">Fortuna Asíncrona</a>
+                      <a class="dropdown-item" href="../pages/loading.html">Fortuna Asíncrona</a>
                     </li>
                     <hr class="dropdown-divider"/></li>
                     <li>
@@ -64,83 +65,78 @@
           </div>
         </div>
       </nav>
-
-      <div class="sounds">
-        <button id="toggleAudio">
-          🔉
-          <i id="volumeIcon" class="fas"></i>
-          <i id="playPauseIcon" class="fas"></i>
-        </button>
-      </div>
-
     </header>
 
     <main>
-    
-      <div class="infoAboutUs">
-        <h2 class="titleAboutUs">Las pitonisas</h2>
-        <p class="textAboutUs">BLABLABLABLABLAB</p>
-      </div>
-    
-      <div class="containerFortunetellers">
-    
-        <div id="card1" class="cardFortuneteller">
-          <div class="imageFortuneteller">
-            <img src="../img/pitonisaSharon.png" alt="">
-          </div>
-          <div class="infoFortuneteller">
-            <h3>Sharon</h3>
-            <p>¡Pero que muy, muy, muy random!<br>¡No se lo cuentes a nadie!<br>A tus pies Sharon coloca el DOM.</p>
-          </div>
-        </div>
-    
-        <div id="card2" class="cardFortuneteller">
-          <div class="imageFortuneteller">
-            <img src="../img/pitonisaAlejandra.png" alt="">
-          </div>
-          <div class="infoFortuneteller">
-            <h3>Ale</h3>
-            <p>¡Es muy satisfactorio!<br>¡Lo sabemos!<br>Cuando Ale te rescata el repositorio…</p>
-          </div>
-        </div>
-    
-        <div id="card3" class="cardFortuneteller">
-          <div class="imageFortuneteller">
-            <img src="../img/pitonisaNathalia.png" alt="">
-          </div>
-          <div class="infoFortuneteller">
-            <h3>Nathalia</h3>
-            <p>¿Quieres ser muy feliz?<br>¡No esperes más!<br>Nathalia, te hace conjuros con Javascript…</p>
-          </div>
-        </div>
-    
-        <div id="card4" class="cardFortuneteller">
-          <div class="imageFortuneteller">
-            <img src="../img/pitonisaJohana.png" alt="">
-          </div>
-          <div class="infoFortuneteller">
-            <h3>Johana</h3>
-            <p>Si tienes en tu alma es un desorden espasmódico:<br>¡Calma!<br>Johana, desata los enredos de tu código…</p>
-          </div>
-        </div>
-    
-        <div id="card5" class="cardFortuneteller">
-          <div class="imageFortuneteller">
-            <img src="../img/pitonisaAna.png" alt="">
-          </div>
-          <div class="infoFortuneteller">
-            <h3>Cecilia</h3>
-            <p>¿Tienes mal panorama?<br>¡No te angusties!<br>¡Ana sabe cómo proteger tu rama!</p>
-          </div>
-        </div>
-      </div>
 
+      <div class="containerAboutUs">
+
+        <div class="infoAboutUs">
+          <p class="textAboutUs">Somos 5 pitonisas, con una fórmula muy precisa:<br>Te hacemos la vida más feliz,<br>¡No te hagas bola, mi pequeña aprendiz!</p>
+        </div>
+      
+        <div class="containerFortunetellers">
+      
+          <div id="card1" class="cardFortuneteller">
+            <div class="imageFortuneteller">
+              <img src="../img/pitonisaSharon.png" alt="">
+            </div>
+            <div class="infoFortuneteller">
+              <h3>Sharon</h3>
+              <p>¡Pero que muy, muy, muy random!<br>¡No se lo cuentes a nadie!<br>A tus pies Sharon coloca el DOM.</p>
+            </div>
+          </div>
+      
+          <div id="card2" class="cardFortuneteller">
+            <div class="imageFortuneteller">
+              <img src="../img/pitonisaAlejandra.png" alt="">
+            </div>
+            <div class="infoFortuneteller">
+              <h3>Ale</h3>
+              <p>¡Es muy satisfactorio!<br>¡Lo sabemos!<br>Cuando Ale te rescata el repositorio…</p>
+            </div>
+          </div>
+      
+          <div id="card3" class="cardFortuneteller">
+            <div class="imageFortuneteller">
+              <img src="../img/pitonisaNathalia.png" alt="">
+            </div>
+            <div class="infoFortuneteller">
+              <h3>Nathalia</h3>
+              <p>¿Quieres ser muy feliz?<br>¡No esperes más!<br>Nathalia, te hace conjuros con Javascript…</p>
+            </div>
+          </div>
+      
+          <div id="card4" class="cardFortuneteller">
+            <div class="imageFortuneteller">
+              <img src="../img/pitonisaJohana.png" alt="">
+            </div>
+            <div class="infoFortuneteller">
+              <h3>Johana</h3>
+              <p>Si tienes en tu alma es un desorden espasmódico:<br>¡Calma!<br>Johana, desata los enredos de tu código…</p>
+            </div>
+          </div>
+      
+          <div id="card5" class="cardFortuneteller">
+            <div class="imageFortuneteller">
+              <img src="../img/pitonisaAna.png" alt="">
+            </div>
+            <div class="infoFortuneteller">
+              <h3>Cecilia</h3>
+              <p>¿Tienes mal panorama?<br>¡No te angusties!<br>¡Ana sabe cómo proteger tu rama!</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    
+    
     </main>
 
     <footer>
       <div id="footerAboutUs">
           <h2 class="callNumberFooter">
-              Decodifica tu suerte, llama al <b>806 123 456</b>
+              Decodifica tu suerte, LLAMA AHORA AL <i class="fa fa-phone" aria-hidden="true"></i><b> 806 123 456</b>
           </h2>
           <div class="paymentFooter">
               <div class="paymentIcons">

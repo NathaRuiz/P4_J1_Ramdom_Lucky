@@ -7,6 +7,9 @@ function animate() {
     if (count == 100 && per == 400) {
         percent.classList.add("text-blink");
         clearInterval(loading);
+        setTimeout(() => {
+            window.location.href="../pages/addNameList.html"            
+        }, 1000);
     } else {
         per = per + 4;
         count = count + 1;

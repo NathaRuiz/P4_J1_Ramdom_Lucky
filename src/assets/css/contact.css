@@ -1,8 +1,10 @@
 @import url(global.css);
+
 #contactBody {
     background: linear-gradient(var(--secondaryColor), var(--tertiaryColor));
     margin-top: 8vh;
     height: 92vh;
+    cursor: url(../img/varita-magica5.png), auto;
   }
   
   #mainContact {
@@ -26,7 +28,7 @@
   .titleContact {
    text-align: center;
    font-family: "Fondamento", cursive;
-   font-size: large;
+   font-size: 30px;
   }
   
   
@@ -52,7 +54,7 @@
     flex-direction: column;
     align-items: center;
     width: 100vw;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   
   .formContact {
@@ -68,7 +70,7 @@
     display: flex;
     margin-left: -200px;
     justify-content: center;
-    margin-top: -20px;
+    margin-top: -40px;
   }
   
   .inputForm,
@@ -86,7 +88,27 @@
    font-family: "Englebert", cursive;
   }
   
-  @media (min-width: 744px) {
+  .inputForm::placeholder {
+    color: var(--primaryColorBase);
+  }
+
+  .textareaForm::placeholder {
+    color: var(--primaryColorBase);
+  }
+
+@media (min-width: 834px) {
+
+  .titleContact{
+      font-size: 40px;
+    }
+    
+  .pContact {
+      font-size: 20px;
+    }
+
+  .formBox {
+      margin-top: 50px;
+    }
     
   #footerHome {
     display: flex;
@@ -123,15 +145,20 @@
   
   }
   
-  @media (min-width: 1200px) {
+  @media (min-width: 1280px) {
   
   .titleContact{
-    font-size: xx-large;
-  }  
+    font-size: 50px;
+  }
+  
+  .pContact {
+    font-size: 20px;
+  }
   
   .formBox{
     display: flex;
     flex-direction: row;
+    margin-top: -20px;
   }
   
   .boxFormImg {
@@ -147,9 +174,10 @@
     width: 40vw;
     display: flex;
     margin-right: 50px;
+    margin-left: 100px;
     align-items: center;
   }
-  
+
   #footerHome {
     background-color: #212529;
     height: 10vh;
@@ -188,107 +216,5 @@
   }
   
   }
-  @media (min-width: 744px) {
-
-    #footerHome {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      position: fixed;
-    }
-    
-    .footerh2 {
-      font-size: 16px;
-      color: var(--primaryColorBase);
-      margin-left: 24px;
-      font-family: "Fondamento", cursive;
-    }
-    
-    .paysHome {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      width: 24%;
-      margin-right: 30px;
-    }
-    
-    .fa-brands {
-      margin: 5px;
-      align-items: flex-end;
-    }
-    
-    .backcolor {
-      color: var(--primaryColorBase);
-    }
-    
-    }
-    
-    @media (min-width: 1200px) {
-    
-    .titleContact{
-      font-size: xx-large;
-    }
-    
-    .formBox{
-      display: flex;
-      flex-direction: row;
-    }
-    
-    .boxFormImg {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      align-content: center; 
-      width: 50vw;
-    }
-    
-    .catGif {
-      height: 45%;
-      width: 40vw;
-      display: flex;
-      margin-right: 50px;
-      align-items: center;
-    }
-    
-    #footerHome {
-      background-color: #212529;
-      height: 10vh;
-      width: 100vw;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      position: fixed;
-      top: 90vh;
-    }
-    
-    .footerh2 {
-      font-size: 18px;
-      color: var(--primaryColorBase);
-      margin-left: 24px;
-      font-family: "Fondamento", cursive;
-    }
-    
-    .paysHome {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      width: 24%;
-      margin-right: 30px;
-    }
-    
-    .fa-brands {
-      margin: 5px;
-      align-items: flex-end;
-    }
-    
-    .backcolor {
-      color: var(--primaryColorBase);
-    }
-    
-    }
     
   
