@@ -1,64 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./src/assets/img/bola1.png" type="image/png" />
+    <title>Secretos Astrales</title>
+    <link rel="stylesheet" href="config/styles/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/83c6a3b014.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Englebert&family=Fondamento&display=swap"
+      rel="stylesheet"
+    />
+    <audio
+      id="backgroundAudio"
+      src="./src/assets/media/audio/mystery.mp3"
+      loop="loop"
+      preload="auto"
+    ></audio>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>secretos Astrales</title>
-    <link rel="stylesheet" href="config/styles/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
-
-<body>
+  <body id="bgHome">
+    <div class="trail"></div>
 
     <header>
-
-        <nav class="navbar  navbar-expand-lg  navbar-dark bg-dark sticky-top">
-            <div class="container-fluid">
-                <a href="index.html">
-                    <img id="navLogo" src="src/assets/img/logo.svg"  width="50px" alt="logo">
-                </a>
-                <a class="navbar-brand fs-3" href="#">Secretos Astrales</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                    aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Secretos Astrales</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body fs-5">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-1">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="src/assets/pages/aboutUs.html">¿Quiénes Somos?</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="src/assets/pages/contact.html">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+      <nav
+        class="navbar navbar-custom navbar-expand-lg navbar-dark bg-dark fixed-top"
+      >
+        <div class="container-fluid">
+          <a href="index.html">
+            <img
+              id="navLogo"
+              src="src/assets/img/logo.svg"
+              width="50px"
+              alt="logo"
+            />
+          </a>
+          <a class="navbar-brand fs-3" href="#">Secretos Astrales</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5
+                class="offcanvas-title font-family"
+                id="offcanvasDarkNavbarLabel"
+              >
+                Secretos Astrales
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
-        </nav>
+            <div class="offcanvas-body fs-5">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-1">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Juegos
+                  </a>
+                  <ul class="dropdown-menu" data-bs-theme="dark">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="./src/assets/pages/randomLucky.html"
+                        >Fortuna Asíncrona</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#"
+                        >Mathrandom de la suerte
+                      </a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Destino true y false</a>
+                    </li>
+                  </ul>
+                </li>
 
+                <li class="nav-item">
+                  <a class="nav-link" href="src/assets/pages/aboutUs.html"
+                    >¿Quiénes Somos?</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="src/assets/pages/contact.html"
+                    >Contacto</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="sounds">
+        <button id="toggleAudio">
+          🔉
+          <i id="volumeIcon" class="fas"></i>
+          <i id="playPauseIcon" class="fas"></i>
+        </button>
+      </div>
     </header>
 
     <main>
+      <div class="textHome">
+        <h1 class="intro">Suerte y Código</h1>
+        <p class="pIntro">
+          ¡Calma tu inquietud! con mucha certitud... Consulta nuestros juegos
+          ¡Apaga ya tu fuego!
+        </p>
+      </div>
 
+      <div class="cardsHome">
+        <div class="cardFirst">
+          <div class="cardGame" onclick="flipCard(this)">
+            <div class="cardInner">
+              <div class="cardFront">
+                <a href="./src/assets/pages/randomLucky.html">
+                  <img
+                    class="cardImage1"
+                    src="./src/assets/img/cardImage1.png"
+                    alt="luckyBallGame"
+                  />
+                </a>
+              </div>
+              <div class="cardBack">
+                <p class="cardGameContent">
+                  Fortuna Asíncrona <br />¡Una bola maravillosa, de manera
+                  habilidosa!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardSecond">
+          <div class="cardGame" onclick="flipCard(this)">
+            <div class="cardInner">
+              <div class="cardFront">
+                <a href="./src/assets/pages/randomLucky.html">
+                  <img
+                    class="cardImage2"
+                    src="./src/assets/img/cardImage2.svg"
+                    alt="luckyBallGame"
+                  />
+                </a>
+              </div>
+              <div class="cardBack">
+                <p class="cardGameContent">
+                  Mathrandom<br />¡Donde la suerte se multiplica!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cardGame" onclick="flipCard(this)">
+            <div class="cardInner">
+              <div class="cardFront">
+                <a href="./src/assets/pages/randomLucky.html">
+                  <img
+                    class="cardImage3"
+                    src="./src/assets/img/cardImage3.svg"
+                    alt="luckyBallGame"
+                  />
+                </a>
+              </div>
+              <div class="cardBack">
+                <p class="cardGameContent">
+                  Destino True o False<br />
+                  ¡La magia en actitud!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
+    <footer>
+      <div id="footerHome">
+        <h2 class="footerh2">
+          Decodifica tu suerte, llama al <b>806 123 456</b>
+        </h2>
+        <div class="paysHome">
+          <h3>
+            <i class="fa-brands fa-cc-visa fa-lg" style="color: #feffff"></i>
+          </h3>
+          <h3>
+            <i
+              class="fa-brands fa-cc-mastercard fa-lg"
+              style="color: #feffff"
+            ></i>
+          </h3>
+          <h3>
+            <i class="fa-brands fa-cc-paypal fa-lg" style="color: #feffff"></i>
+          </h3>
+        </div>
+      </div>
+    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./src/assets/js/functionsHome.js" type="module"></script>
+  </body>
 </html>
