@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Englebert&family=Fondamento&display=swap" rel="stylesheet">
+    <audio id="backgroundAudio" src="./src/assets/media/audio/mystery.mp3" loop="loop" preload="auto"></audio>
 </head>
 <body id="bgAboutUs">
     <header>
@@ -64,7 +65,13 @@
         </div>
       </nav>
 
-      <audio id="backgroundAudio" src="./src/assets/media/audio/mystery.mp3" loop="loop" preload="auto"></audio>
+      <div class="sounds">
+        <button id="toggleAudio">
+          🔉
+          <i id="volumeIcon" class="fas"></i>
+          <i id="playPauseIcon" class="fas"></i>
+        </button>
+      </div>
 
     </header>
 
@@ -148,7 +155,7 @@
           </div>
       </div>
   </footer>
-    
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
 </body>
