@@ -1,1 +1,383 @@
 @import url(global.css);
+<<<<<<< HEAD
+#contactBody {
+    background: linear-gradient(var(--secondaryColor), var(--tertiaryColor));
+    margin-top: 8vh;
+    height: 92vh;
+  }
+  
+  #mainContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    padding-top: 10px;
+  }
+  
+  #footerContact {
+    height: 9%;
+  }
+  
+  .allTextsContact {
+    height: 30%;
+    color: white;
+  }
+  
+  
+  .titleContact {
+   text-align: center;
+   font-family: "Fondamento", cursive;
+   font-size: large;
+  }
+  
+  
+  .textContact {
+   margin-top: 15px;
+   text-align: center;
+   font-size: 16px;
+   font-family: "Englebert", cursive;
+  }
+  
+  .boxFormImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    height: 45%;
+    width: 100vw;
+    font-family: "Englebert", cursive;
+  }
+  
+  .formBox{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin-top: 20px;
+  }
+  
+  .formContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+  
+  .catGif {
+    height: 33vh;
+    width: 100%;
+    display: flex;
+    margin-left: -200px;
+    justify-content: center;
+    margin-top: -20px;
+  }
+  
+  .inputForm,
+  .textareaForm {
+   width: 70%;
+   padding: 12px 20px 2px 2px;
+   margin-bottom: 10px;
+   border: none;
+   outline: none;
+   background: transparent;
+   border-bottom: 1px solid white;
+   font-size: small;
+   row-gap: 5px;
+   color: white;
+   font-family: "Englebert", cursive;
+  }
+  
+  @media (min-width: 744px) {
+    
+  #footerHome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+  }
+  
+  .footerh2 {
+    font-size: 16px;
+    color: var(--primaryColorBase);
+    margin-left: 24px;
+    font-family: "Fondamento", cursive;
+  }
+  
+  .paysHome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 24%;
+    margin-right: 30px;
+  }
+  
+  .fa-brands {
+    margin: 5px;
+    align-items: flex-end;
+  }
+  
+  .backcolor {
+    color: var(--primaryColorBase);
+  }
+  
+  }
+  
+  @media (min-width: 1200px) {
+  
+  .titleContact{
+    font-size: xx-large;
+  }  
+  
+  .formBox{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .boxFormImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    width: 50vw;
+  }
+  
+  .catGif {
+    height: 45%;
+    width: 40vw;
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+  }
+  
+  #footerHome {
+=======
+
+#contactBody {
+ background: linear-gradient(var(--secondaryColor), var(--tertiaryColor));
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 100vh;
+ padding-top: 90px;
+ justify-content: center;
+ width: 100vw;
+ border: solid 3px red;
+
+}
+
+#mainContact {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border: solid 3px greenyellow;
+ width: 100%;
+
+}
+
+.textContact {
+ margin-top: 10vh;
+}
+
+.titleContact {
+ color: white;
+ font-size: 30px;
+ text-align: center;
+}
+
+.textContact p {
+ color: white;
+ text-align: center;
+ font-size: 15px;
+}
+
+.boxFormImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    justify-content: center;
+    width: 80%;
+}
+
+.formContact {
+width: 80%;
+display: flex;
+justify-content: center;
+
+}
+
+.form {
+border: solid 3px greenyellow;
+width: 100%;
+display: flex;
+flex-direction: column;
+
+}
+
+#footerHome {
+>>>>>>> de934580c53baf342cecc75ed2ca59c1ff0322f2
+    background-color: #212529;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 90vh;
+  }
+  
+  .footerh2 {
+<<<<<<< HEAD
+    font-size: 18px;
+=======
+    font-size: 14px;
+>>>>>>> de934580c53baf342cecc75ed2ca59c1ff0322f2
+    color: var(--primaryColorBase);
+    margin-left: 24px;
+    font-family: "Fondamento", cursive;
+  }
+  
+  .paysHome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 24%;
+    margin-right: 30px;
+  }
+  
+  .fa-brands {
+    margin: 5px;
+    align-items: flex-end;
+  }
+  
+  .backcolor {
+    color: var(--primaryColorBase);
+  }
+  
+<<<<<<< HEAD
+  }
+  @media (min-width: 744px) {
+
+    #footerHome {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+    }
+    
+    .footerh2 {
+      font-size: 16px;
+      color: var(--primaryColorBase);
+      margin-left: 24px;
+      font-family: "Fondamento", cursive;
+    }
+    
+    .paysHome {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 24%;
+      margin-right: 30px;
+    }
+    
+    .fa-brands {
+      margin: 5px;
+      align-items: flex-end;
+    }
+    
+    .backcolor {
+      color: var(--primaryColorBase);
+    }
+    
+    }
+    
+    @media (min-width: 1200px) {
+    
+    .titleContact{
+      font-size: xx-large;
+    }
+    
+    .formBox{
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .boxFormImg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center; 
+      width: 50vw;
+    }
+    
+    .catGif {
+      height: 45%;
+      width: 40vw;
+      display: flex;
+      margin-right: 50px;
+      align-items: center;
+    }
+    
+    #footerHome {
+      background-color: #212529;
+      height: 10vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      top: 90vh;
+    }
+    
+    .footerh2 {
+      font-size: 18px;
+      color: var(--primaryColorBase);
+      margin-left: 24px;
+      font-family: "Fondamento", cursive;
+    }
+    
+    .paysHome {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 24%;
+      margin-right: 30px;
+    }
+    
+    .fa-brands {
+      margin: 5px;
+      align-items: flex-end;
+    }
+    
+    .backcolor {
+      color: var(--primaryColorBase);
+    }
+    
+    }
+    
+  
+=======
+
+/*
+.inputForm,
+.textareaForm {
+ width: 100%;
+ padding: 12px 20px;
+ margin-bottom: 20px;
+ border: 1px solid white;
+ border-radius: 4px;
+ box-sizing: border-box;
+ font-size: 16px;
+ row-gap: 5px;
+}
+*/
+>>>>>>> de934580c53baf342cecc75ed2ca59c1ff0322f2

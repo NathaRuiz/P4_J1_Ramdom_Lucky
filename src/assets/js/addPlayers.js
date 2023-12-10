@@ -3,6 +3,7 @@ function main() {
   const inputName = document.getElementById("input");
   const addName = document.getElementById("addPlus");
   const myList = document.getElementById("list");
+  const startGame = document.getElementById("btnStart")
   
   let namesList = [];
   let data = localStorage.getItem("NAMESLIST"); 
@@ -50,6 +51,15 @@ function main() {
     }
     localStorage.setItem("NAMESLIST", JSON.stringify(namesList)); 
   });
+
+  startGame.addEventListener("click", ()=>{
+    if(namesList.length === 0){
+      alert("Agrega al menos un participante para continuar")
+    }
+    else{
+      window.location.href = '../pages/randomLucky.html';
+    }
+  })
 
   printLocalStorageData(myList, data);
 }
