@@ -1,4 +1,5 @@
 @import url(global.css);
+<<<<<<< HEAD
 #contactBody {
     background: linear-gradient(var(--secondaryColor), var(--tertiaryColor));
     margin-top: 8vh;
@@ -151,6 +152,73 @@
   }
   
   #footerHome {
+=======
+
+#contactBody {
+ background: linear-gradient(var(--secondaryColor), var(--tertiaryColor));
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ height: 100vh;
+ padding-top: 90px;
+ justify-content: center;
+ width: 100vw;
+ border: solid 3px red;
+
+}
+
+#mainContact {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border: solid 3px greenyellow;
+ width: 100%;
+
+}
+
+.textContact {
+ margin-top: 10vh;
+}
+
+.titleContact {
+ color: white;
+ font-size: 30px;
+ text-align: center;
+}
+
+.textContact p {
+ color: white;
+ text-align: center;
+ font-size: 15px;
+}
+
+.boxFormImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    justify-content: center;
+    width: 80%;
+}
+
+.formContact {
+width: 80%;
+display: flex;
+justify-content: center;
+
+}
+
+.form {
+border: solid 3px greenyellow;
+width: 100%;
+display: flex;
+flex-direction: column;
+
+}
+
+#footerHome {
+>>>>>>> de934580c53baf342cecc75ed2ca59c1ff0322f2
     background-color: #212529;
     height: 10vh;
     width: 100vw;
@@ -163,7 +231,11 @@
   }
   
   .footerh2 {
+<<<<<<< HEAD
     font-size: 18px;
+=======
+    font-size: 14px;
+>>>>>>> de934580c53baf342cecc75ed2ca59c1ff0322f2
     color: var(--primaryColorBase);
     margin-left: 24px;
     font-family: "Fondamento", cursive;
@@ -187,6 +259,7 @@
     color: var(--primaryColorBase);
   }
   
+<<<<<<< HEAD
   }
   @media (min-width: 744px) {
 
@@ -292,3 +365,19 @@
     }
     
   
+=======
+
+/*
+.inputForm,
+.textareaForm {
+ width: 100%;
+ padding: 12px 20px;
+ margin-bottom: 20px;
+ border: 1px solid white;
+ border-radius: 4px;
+ box-sizing: border-box;
+ font-size: 16px;
+ row-gap: 5px;
+}
+*/
+>>>>>>> de934580c53baf342cecc75ed2ca59c1ff0322f2
