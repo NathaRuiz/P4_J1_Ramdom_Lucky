@@ -23,7 +23,7 @@
   font-family: "Fondamento", cursive;
 }
 
-.container {
+.containerFortunetellers {
   position: relative;
   width: 100%;
   display: flex;
@@ -34,7 +34,7 @@
   padding: 30px;  
 }
 
-.container .card {
+.containerFortunetellers .cardFortuneteller {
   position: relative;
   max-width: 210px;
   height: 160px;
@@ -47,11 +47,11 @@
   transition: 0.3s ease-in-out;
 }
 
-.container .card:hover {
+.containerFortunetellers .cardFortuneteller:hover {
   height: 300px;    
 }
 
-.container .card .image {
+.containerFortunetellers .cardFortuneteller .imageFortuneteller {
   position: relative;
   width: 160px;
   height: 160px;
@@ -63,12 +63,12 @@
   z-index: 1;
 }
 
-.container .card .image img {
+.containerFortunetellers .cardFortuneteller .imageFortuneteller img {
   max-width: 100%;
   border-radius: 15px;
 }
 
-.container .card .content {
+.containerFortunetellers .cardFortuneteller .infoFortuneteller {
   position: relative;
   top: -140px;
   padding: 10px 15px;
@@ -80,7 +80,7 @@
   transition: 0.3s ease-in-out;
 }
 
-.container .card:hover .content {
+.containerFortunetellers .cardFortuneteller:hover .infoFortuneteller {
    margin-top: 20px; /*margen entre nombre de la pitonisa y el texto*/
    visibility: visible;
    opacity: 1;
@@ -162,7 +162,7 @@ margin-right: 30px;
   margin-top: 5%;
 }
 
-.container {
+.containerFortunetellers {
   margin-top: 20%;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -172,7 +172,7 @@ margin-right: 30px;
   margin-top: 5px;
 }
 
-.container .card {
+.containerFortunetellers .cardFortuneteller {
   width: 273px;
 }
 
@@ -188,7 +188,7 @@ margin-right: 30px;
   margin-top: 0%;
 }
 
-.container {
+.containerFortunetellers {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -199,16 +199,16 @@ margin-right: 30px;
   padding: 30px;
 }
 
-.container .card {
+.containerFortunetellers .cardFortuneteller {
   width: 180px;
   margin: 10px 5px;
 }
 
-.container .card .image {
+.containerFortunetellers .cardFortuneteller .imageFortuneteller {
   left: -7px;
 }
 
-.container .card .image img { /*Revisar si hace falta*/
+.containerFortunetellers .cardFortuneteller .imageFortuneteller img { /*Revisar si hace falta*/
   max-width: 100%;
   border-radius: 15px;
 }
@@ -219,9 +219,9 @@ margin-right: 30px;
 #card4 { grid-area: 2 / 3 / 3 / 4; }
 #card5 { grid-area: 2 / 5 / 3 / 6; }
 
-.frontCard {
+/* .frontCard {
   margin-bottom: 10%;
   width: 180px;
   height: 180px;
-}
+} */
 }
