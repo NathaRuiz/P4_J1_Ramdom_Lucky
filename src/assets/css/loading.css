@@ -1,15 +1,20 @@
 @import url(global.css);
-body {
-    font-family: 'roboto';
-    background: #151515;
-}
 
 * {
     margin: 0;
     padding: 0;
 }
+video {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
 
  .loading {
+    position: relative;
    display: flex;
    justify-content: center;
    flex-direction: column;
@@ -27,18 +32,9 @@ body {
     margin-bottom: 3%;
     
 }
-.text{
-    position: absolute;
-    left: 160px;
-  color:#3C0645;
-    font-size: 15px;
-    letter-spacing: 1px;
-    line-height: 21px;
-    display: none;
-}
-.text-blink{
-    animation: blink .7s ease-in-out .1s;
-}
+
+
+
 @keyframes blink {
     0%{
         opacity: 1;
