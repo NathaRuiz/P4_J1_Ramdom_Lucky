@@ -1,1 +1,64 @@
 @import url(global.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+video {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+ .loading {
+    position: relative;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+    align-content:center ;
+    align-items: center;
+    padding-top: 15%;
+
+} 
+
+.percent {
+    color: #F5F5F5;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 3%;
+    
+}
+
+
+
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: .2;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.progress-bar {
+    width: 406px;
+    height: 21px;
+    background: #111;
+    border-radius: 13px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.progress {
+    width: 200px;
+    height: 15px;
+    background: #B47DBC;
+    border-radius: 13px;
+}

@@ -8,9 +8,12 @@
     background: linear-gradient(var(--primaryColor), var(--quinaryColor));
     cursor: url(../img/varita-magica5.png), auto;
     padding-top: 60px;
-
+    font-family: "Fondamento", cursive;
   }
 
+.navbar-custom{
+  font-family: 'Englebert', cursive;
+}
 
 #gameMain {
   display: flex;
@@ -69,6 +72,7 @@
   justify-content: center;
   text-align: center;
   font-size: 16px;
+  padding: 2px;
 }
 
 #handContainer {
@@ -146,6 +150,7 @@
     width: 450px;
     height: 450px;
     font-size: 20px;
+    padding: 2px;
   }
   .btnMagic {
     width: 50%;
@@ -213,6 +218,7 @@
     width: 250px;
     height: 250px;
     font-size: 16px;
+    padding: 10px;
   }
 
   .btnMagic {
@@ -276,6 +282,7 @@
     width: 350px;
     height: 350px;
     font-size: 16px;
+    padding: 2px;
   }
 
   .btnMagic {
@@ -344,6 +351,7 @@
     width: 250px;
     height: 250px;
     font-size: 16px;
+    padding: 10px;
   }
 
   .btnMagic {
