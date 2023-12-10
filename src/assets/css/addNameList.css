@@ -6,7 +6,12 @@
     cursor: url(../img/varita-magica5.png), auto;
     padding-top: 60px;
     overflow: hidden;
+    font-family: "Fondamento", cursive;
 }
+
+.navbar-custom{
+    font-family: 'Englebert', cursive;
+  }
 
 #listMain{
     display: flex;
