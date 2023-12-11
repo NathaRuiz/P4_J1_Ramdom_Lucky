@@ -223,7 +223,7 @@
 }
 
 
-@media (min-width: 1280px) {
+@media (min-width: 1280px) and (min-height: 800px){
   #contactBody{
     background: rgb(13,6,55);
     background: linear-gradient(90deg, rgba(13,6,55,1) 0%, rgba(128,0,128,1) 59%, rgba(225,169,255,1) 100%);

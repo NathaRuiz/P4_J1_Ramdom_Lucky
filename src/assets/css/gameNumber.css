@@ -81,3 +81,23 @@
     transition: all 150ms linear;
     cursor: url(../img/varita-magica5.png), auto;
 }
+
+@media (min-width: 1025px) {
+
+    .h1GameNumber {
+        font-size: 30px;
+    }
+
+    .pGameNumber {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .result {
+        height: 250px;
+        width: 380px;
+        z-index: 1000;
+        font-family: "Fondamento", cursive;
+    }
+    
+}

@@ -151,15 +151,26 @@ font-family: 'Englebert', cursive;
 
 }
 
-@media (min-width: 1366px) and (min-height: 768px){
+
+@media (min-width: 1025px){
 
     .containerGameYesNo {
         top: 75%;
         left: 50%;
     }
 
-    .stats {
-        margin-bottom: 40px;
+    .containerGameYesNo {
+        background-color: transparent;
+        width: 380px;
+        padding: 0px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 75%;
+        left: 50%;
+        box-shadow: 2px 8px 8px 8px rgba(255, 255, 255, 0.079);
+        border-radius: 10px;
+        -webkit-perspective: 300px;
+        perspective: 300px;
     }
 
 }
