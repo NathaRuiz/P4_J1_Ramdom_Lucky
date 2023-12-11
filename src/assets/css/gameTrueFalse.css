@@ -1,0 +1,178 @@
+
+@import url(global.css);
+
+#htmlBackgroundG {
+    height: 100%;
+}
+
+#gameBodyG {
+    height: 100%;
+    background: linear-gradient(var(--primaryColor), var(--quinaryColor));
+    cursor: url(../img/varita-magica5.png), auto;
+    padding-top: 90px;
+}
+
+.h1gameSN {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'fondamento', cursive;
+}
+
+.containerGameYesNo {
+    background-color: transparent;
+    width: 380px;
+    padding: 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    box-shadow: 2px 8px 8px 8px rgba(255, 255, 255, 0.079);
+    border-radius: 10px;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+}
+
+.coin {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 32px auto;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#runas {
+    width: 100%;
+}
+
+
+.no,
+.si {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.si {
+    transform: rotateX(180deg);
+}
+
+
+@keyframes spin-si {
+    0% {
+        transform: rotateX(0);
+    }
+
+    100% {
+        transform: rotateX(1980deg);
+    }
+}
+
+@keyframes spin-no {
+    0% {
+        transform: rotateX(0);
+    }
+
+    100% {
+        transform: rotateX(2160deg);
+    }
+}
+
+.stats {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background: var(--quinaryColor);
+    font-size: 24px;
+    padding: 20px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0, 139, 253, 0.25);
+    font-family: 'fondamento', cursive;
+}
+
+.stats :nth-last-child(1) {
+    margin-left: 50%;
+}
+
+.buttonsGameYN {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'fondamento', cursive;
+    font-size: 24px;
+}
+
+.buttonGYN {
+    width: 150px;
+    padding: 15px 0;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#flip-button {
+ font-size: 12px;
+ width: fit-content;
+ padding: 10px;
+ margin-left: 5px;
+}
+
+#flip-button:disabled {
+    background-color: #c7e4fc;
+    border-color: #e1e0ee;
+    color: #ffffff;
+}
+
+#reset-button {
+ font-size: 12px;
+ width: fit-content;
+ padding: 10px;
+ margin-right: 5px;
+}
+
+
+@media (min-width: 834px) {
+
+    .containerGameYesNo {
+        top: 60%;
+        left: 50%;
+    }
+
+    .stats {
+        margin-bottom: 60px;
+    }
+
+}
+
+@media (min-width: 1366px) and (min-height: 768px){
+
+    .containerGameYesNo {
+        top: 75%;
+        left: 50%;
+    }
+
+    .stats {
+        margin-bottom: 40px;
+    }
+
+}
+
+
+
+@media (min-width: 1280px) and (min-height :800px) {
+
+    .containerGameYesNo {
+        top: 69%;
+        left: 50%;
+    }
+
+    .stats {
+        margin-bottom: 60px;
+    }
+
+}
