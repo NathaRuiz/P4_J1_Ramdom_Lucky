@@ -173,6 +173,7 @@
   justify-content: space-between;
   position: fixed;
   top: 90vh;
+  font-family: 'Englebert', cursive;
 }
 
 .footerh2 {
@@ -181,7 +182,7 @@
   margin-top: 15px;
   font-size: 14px;
   color: var(--primaryColorBase);
-  font-family: "Englebert", cursive;
+  font-family: 'Englebert', cursive;
   padding-bottom: -20px;
 }
 
@@ -270,11 +271,13 @@
   align-items: center;
   justify-content: space-between;
   position: fixed;
+  font-family: 'Englebert', cursive;
 }
 
 .footerh2 {
   font-size: 16px;
   margin-left: 24px;
+  font-family: 'Englebert', cursive;
 }
 
 .paysHome {
@@ -284,6 +287,7 @@
   justify-content: space-between;
   width: 24%;
   margin-right: 30px;
+  padding-top:25px ;
 }
 
 .fa-brands {
@@ -293,7 +297,80 @@
 
 }
 
-@media (min-width: 1280px) {
+
+@media (min-width: 1025px) {
+  .intro {
+    margin-top: 0px;
+  }
+
+  .pIntro {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .cardsHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 110px;
+    width: 100vw;
+  }
+  .cardImage1,
+  .cardImage2,
+  .cardImage3 {
+    width: 223px;
+    height: 255px;
+    margin-left: 10px;
+  }
+
+  .cardGame {
+    width: 248px;
+    height: 276px;
+    margin: -50px 25px;
+  }
+
+  .cardSecond {
+    display: flex;
+    flex-direction: row;
+  }
+
+ .cardGame:hover .cardInner {
+    transform: rotateY(180deg) scale(1.1);
+  }
+
+  .cardGame:hover {
+    transform: scale(1.1);
+  }
+
+  .cardGameContent {
+    font-size: 18px;
+    z-index: 1000;
+  }
+ 
+footer{
+  font-family: 'Englebert', cursive;
+}
+#footerHome {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Englebert', cursive;
+}
+
+.footerh2 {
+  font-size: 18px;
+  margin-left: 24px;
+  font-family: 'Englebert', cursive;
+}
+
+.paysHome {
+  justify-content: space-around;
+  width: 20%;
+  margin-right: 30px;
+  padding-top: 30px;
+}
+}
+
+
+@media (min-width: 1280px) and (min-height: 800px) {
   .intro {
     margin-top: 80px;
   }
@@ -345,6 +422,7 @@
 .footerh2 {
   font-size: 18px;
   margin-left: 24px;
+  font-family: 'Englebert', cursive;
 }
 
 .paysHome {

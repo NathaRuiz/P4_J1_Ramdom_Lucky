@@ -5,6 +5,7 @@
     margin-top: 8vh;
     height: 92vh;
     cursor: url(../img/varita-magica5.png), auto;
+    font-family: 'Englebert', cursive;
   }
   
   #mainContact {
@@ -17,6 +18,7 @@
   
   #footerContact {
     height: 9%;
+    font-family: 'Englebert', cursive;
   }
   
   .allTextsContact {
@@ -32,11 +34,11 @@
   }
   
   
-  .textContact {
+  .pContact {
    margin-top: 14px;
    text-align: center;
    font-size: 16px;
-   font-family: "Englebert", cursive;
+   font-family: "Fondamento", cursive;
   }
   
   .boxFormImg {
@@ -122,7 +124,7 @@
     font-size: 16px;
     color: var(--primaryColorBase);
     margin-left: 24px;
-    font-family: "Fondamento", cursive;
+    font-family: 'Englebert', cursive;
   }
   
   .paysHome {
@@ -144,8 +146,86 @@
   }
   
   }
+
+  @media (min-width: 1025px){
+    .titleContact{
+      font-size: 30px;
+    }
+    
+    .pContact {
+      padding-top: 10px;
+      font-size: 15px;
+    }
+    
+    .formBox{
+      display: flex;
+      flex-direction: row;
+      margin-top: -20px;
+    }
+    
+    .boxFormImg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center; 
+      width: 50vw;
+    }
+
+    .inputForm,
+  .textareaForm {
+   width: 70%;
+   padding: 5px 10px 2px 2px;
+   margin-bottom: 10px;
+  }
   
-  @media (min-width: 1280px) {
+    .catGif {
+      height: 45%;
+      width: 40vw;
+      display: flex;
+      margin-right: 50px;
+      margin-left: 100px;
+      align-items: center;
+    }
+  
+    #footerHome {
+      background-color: #212529;
+      height: 10vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      top: 90vh;
+    }
+    
+    .footerh2 {
+      font-size: 18px;
+      color: var(--primaryColorBase);
+      margin-left: 24px;
+      font-family: 'Englebert', cursive;
+    }
+    
+    .paysHome {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 24%;
+      margin-right: 30px;
+    }
+    
+    .fa-brands {
+      margin: 5px;
+      align-items: flex-end;
+    }
+    
+    .backcolor {
+      color: var(--primaryColorBase);
+    }
+  }
+  
+  @media (min-width: 1280px) and (min-height: 800px)  {
   
   .titleContact{
     font-size: 50px;
@@ -194,7 +274,7 @@
     font-size: 18px;
     color: var(--primaryColorBase);
     margin-left: 24px;
-    font-family: "Fondamento", cursive;
+    font-family: 'Englebert', cursive;
   }
   
   .paysHome {

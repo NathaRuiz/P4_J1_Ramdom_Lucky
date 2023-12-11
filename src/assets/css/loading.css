@@ -72,7 +72,17 @@
     }
 }
 
-@media (min-width: 1280px) {  
+@media (min-width: 1025px){
+    .loading {
+        padding-top: 10%;
+    } 
+    
+    .percent {
+        font-size: 80px; 
+    }
+}
+
+@media (min-width: 1280px) and (min-height: 800px){  
      .loading {
         padding-top: 15%;
     } 

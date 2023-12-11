@@ -132,7 +132,7 @@ margin-right: 30px;
 }
 
 .containerAboutUs {
-  height: 94vh;
+  height: 90vh;
 }
 
 .containerFortunetellers {
@@ -156,7 +156,7 @@ margin-right: 30px;
 #card5 { grid-area: 3 / 4 / 4 / 5; }
 
 #footerAboutUs {
-  height: 6vh;
+  height: 10vh;
   width: 100%;
   top: 94%;
   display: flex;
@@ -166,7 +166,7 @@ margin-right: 30px;
 }
 
 .callNumberFooter {
-  font-size: 14px;
+  font-size: 16px;
   padding-left: 40px;
 }
 
@@ -174,13 +174,89 @@ margin-right: 30px;
  margin-top: -8px;
 }
 
-
-
+.fa-brands {
+  margin: 5px;
+  align-items: flex-end;
+  font-size: 30px;
+}
 
 }
 
 
-@media (min-width :1280px) {
+@media (min-width :1025px){
+
+  #bgAboutUs {
+   /* overflow-y: hidden; */
+  }
+  .infoAboutUs {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
+  
+  .containerFortunetellers {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    max-width: 100vw;
+    padding: 30px;
+  }
+  
+  .containerFortunetellers .cardFortuneteller {
+    width: 180px;
+    margin: 5px 5px;
+  }
+  
+  .containerFortunetellers .cardFortuneteller .imageFortuneteller {
+    left: -6px;
+  }
+  
+  .containerFortunetellers .cardFortuneteller .imageFortuneteller img {
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  
+  .containerFortunetellers .cardFortuneteller:hover {
+    height: 320px;    
+  }
+
+  .containerFortunetellers .cardFortuneteller:hover .infoFortuneteller {
+    margin-top: 20px;
+   font-size: 15px;
+ }
+
+  #card1 { grid-area: 1 / 2 / 2 / 3; }
+  #card2 { grid-area: 1 / 3 / 2 / 4; }
+  #card3 { grid-area: 1 / 4 / 2 / 5; }
+  #card4 { grid-area: 1 / 5 / 2 / 6; }
+  #card5 { grid-area: 1 / 6 / 2 / 7; }
+
+  .containerAboutUs {
+    height: 90vh;
+  }
+
+  #footerAboutUs {
+    height: 10vh;
+    /* position: relative; */
+
+  }
+   
+  .callNumberFooter {
+    font-size: 19px;
+    padding-left: 40px;
+  }
+
+  .paymentIcons {
+    font-size: 30px;
+    }
+
+}
+
+
+@media (min-width :1280px) and (min-height: 800px) {
 .infoAboutUs {
   margin-top: 0%;
   font-size: 20px;
