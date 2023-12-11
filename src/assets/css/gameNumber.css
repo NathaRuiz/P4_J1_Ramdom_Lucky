@@ -12,6 +12,10 @@
     font-family: "Fondamento", cursive;
 }
 
+.navbar-custom {
+  font-family: "Englebert", cursive;
+}
+
 .textGameNumber {
     display: flex;
     flex-direction: column;
