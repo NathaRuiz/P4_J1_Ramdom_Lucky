@@ -20,7 +20,7 @@ font-family: 'Englebert', cursive;
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    color: rgb(255, 255, 255);
+    color: var(--primaryColorBase);
     font-family: 'fondamento', cursive;
 }
 
@@ -87,7 +87,7 @@ font-family: 'Englebert', cursive;
 }
 
 .stats {
-    color: white;
+    color: var(--primaryColorBase);
     display: flex;
     justify-content: space-around;
     background: var(--quinaryColor);
@@ -127,9 +127,7 @@ font-family: 'Englebert', cursive;
 }
 
 #flip-button:disabled {
-    background-color: #c7e4fc;
-    border-color: #e1e0ee;
-    color: #ffffff;
+    color: var(--primaryColorBase);
 }
 
 #reset-button {

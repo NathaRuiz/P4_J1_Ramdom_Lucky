@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgb(255, 255, 255);
+    color: var(--primaryColorBase);
 }
 
 .containerGameNumber {
@@ -39,13 +39,13 @@
 }
 
 .result {
-    background-color: #007bff62;
+    background-color: var( --quinaryColor);
     margin: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 100px;
-    color: #ffd504;
+    color: var( --secondaryColor);
     border-radius: 8px;
     height: 330px;
     width: 380px;

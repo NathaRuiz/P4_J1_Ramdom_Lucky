@@ -23,7 +23,7 @@
 
 .allTextsContact {
   height: 40%;
-  color: white;
+  color: var(--primaryColorBase);
 }
 
 .titleContact {
@@ -81,10 +81,10 @@
   border: none;
   outline: none;
   background: transparent;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--primaryColorBase);
   font-size: small;
   row-gap: 5px;
-  color: white;
+  color: var(--primaryColorBase);
   font-family: "Englebert", cursive;
 }
 

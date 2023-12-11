@@ -36,7 +36,7 @@
 }
 
 #toggleAudio {
-  background-color: #011c2e37;
+  background-color: var(--primaryColor);
   margin-left: 15px;
   color: #ffffff;
   border: none;
@@ -164,7 +164,7 @@
 }
 
 #footerHome {
-  background-color: #212529;
+  background-color: var(--tertiaryColor);
   height: 10vh;
   width: 100vw;
   display: flex;

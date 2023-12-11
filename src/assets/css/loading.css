@@ -49,7 +49,7 @@
 .progresBar {
     width: 406px;
     height: 21px;
-    background: #111;
+    background: var( --secondaryColorBase);
     border-radius: 13px;
     padding: 3px;
     box-sizing: border-box;
@@ -58,7 +58,7 @@
 .progress {
     width: 200px;
     height: 15px;
-    background: #B47DBC;
+    background: var( --quaternaryColor);
     border-radius: 13px;
 }
 
