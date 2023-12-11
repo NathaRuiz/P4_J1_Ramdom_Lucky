@@ -12,6 +12,10 @@
     padding-top: 90px;
 }
 
+.navbar-custom{
+font-family: 'Englebert', cursive;
+}
+
 .h1gameSN {
     display: flex;
     justify-content: center;
