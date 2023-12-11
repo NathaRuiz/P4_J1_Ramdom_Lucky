@@ -28,7 +28,7 @@ function main() {
     "¡Qué mal panorama, sube bien tu rama!!!",
     "¡Si quieres saber la realidad, un git push te dirá la verdad!",
     "¡Lee con calma este mensaje, se avecina con git merge un gran viaje!",
-    "Cuando comiences a organizarte por: orden: header, body and footer. Todo empezará a revelarse",
+    "Cuando comiences a organizarte pon un orden: header, body and footer. Todo empezará a revelarse",
     "¿Quieres ver más allá? Un baño de console. log te ayudará",
   ];
 
