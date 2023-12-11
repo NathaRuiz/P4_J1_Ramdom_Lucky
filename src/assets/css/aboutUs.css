@@ -185,9 +185,6 @@ margin-right: 30px;
 
 @media (min-width :1025px){
 
-  #bgAboutUs {
-   /* overflow-y: hidden; */
-  }
   .infoAboutUs {
     margin-top: 100px;
     margin-bottom: 0px;
@@ -197,7 +194,6 @@ margin-right: 30px;
   .containerFortunetellers {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    /* grid-template-rows: repeat(2, 1fr); */
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
