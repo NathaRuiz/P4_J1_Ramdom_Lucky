@@ -3,7 +3,6 @@
 #bgHome {
   background: url("../img/bgshine.gif");
   background-repeat: no-repeat;
-  position: fixed;
   background-size: auto;
   cursor: none;
 }
@@ -205,6 +204,34 @@
   color: var(--primaryColorBase);
 }
 
+@media (max-width: 375px) {
+  .intro {
+    font-size: 17px;
+  }
+  
+  .pIntro {
+    font-size: 15px;
+  }
+
+  .cardsHome {
+    margin-top: 2px;
+    margin-bottom: 60px;
+  }
+  
+  .cardImage1,
+  .cardImage2,
+  .cardImage3 {
+    width: 102px;
+    height: 120px;
+    margin: 8px;
+  }
+  .cardGame {
+    margin-bottom: 15px;
+    width: 126px;
+    height: 144px;
+  }
+
+}
 
 @media (min-width: 834px) and (max-width: 1279px) {
 
