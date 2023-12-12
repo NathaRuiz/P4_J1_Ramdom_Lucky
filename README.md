@@ -31,7 +31,7 @@ The application must allow:
 ### Tecnologies
 For this project we used the technologies requested:
 
- <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap)](https://skillicons.dev"/>
+<img src="https://skillicons.dev/icons?i=js,html,css,bootstrap,vscode)](https://skillicons.dev"/>
 
 ### Mockups 
 ![Mobile-First](src/assets/img/Mockups.png)
@@ -43,8 +43,8 @@ The game has four controlled views for responsive web design:
 - Desktop 1 (1280 x 800)
 - Desktop 2 (1366 x 768)
 
-### Page Display
-[URL-Demo]()
+### Page Deployment
+[Secretos Astrales](https://secretosastrales.netlify.app/)
 
 ## To Improve in the Future
 - Making a responsive design that encompasses more.
